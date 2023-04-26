@@ -1,0 +1,21 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/logs/logs",
+		"pages/dier/dier"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "Weixin",
+		"navigationBarTextStyle": "black"
+	},
+	
+	
+		"usingComponents": {
+		  "van-tab": "/miniprogram_npm/vant-weapp/tab",
+		  "van-tabs": "/miniprogram_npm/vant-weapp/tabs"
+		},
+	  
+	"sitemapLocation": "sitemap.json"
+}

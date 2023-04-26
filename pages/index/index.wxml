@@ -1,0 +1,14 @@
+<van-tabs v-model="{{active}}" scrollable>
+  <van-tab title="首页"></van-tab>
+  <van-tab title="第二页"></van-tab>
+  <van-tab title="第三页"></van-tab>
+  <van-tab title="第四页"></van-tab>
+  <van-tab title="第五页"></van-tab>
+  <van-tab title="第六页"></van-tab>
+  <van-tab title="第七页"></van-tab>
+  <van-tab title="第八页"></van-tab>
+  <van-tab title="第九页"></van-tab>
+  <van-tab title="第十页"></van-tab>
+  <van-tab title="第十一页"></van-tab>
+  <van-tab title="第十二页"></van-tab>
+</van-tabs>

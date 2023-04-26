@@ -1,0 +1,70 @@
+.tab-bar {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 48rpx;
+	background-color: #fff;
+	line-height: 48rpx;
+	border-bottom: 1rpx solid #efefef;
+	z-index: 99;
+  }
+  
+  .tab-bar-items {
+	flex: 1;
+	white-space: nowrap;
+  }
+  
+  .tab-item {
+	display: inline-block;
+	font-size: 16rpx;
+	color: #333;
+	text-align: center;
+	margin-right: 32rpx;
+  }
+  
+  .tab-item.active {
+	color: #f00;
+	font-weight: 600;
+  }
+  
+  .swiper-container {
+	position: fixed;
+	top: 48rpx;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  }
+  /* 顶部TabBar样式 */
+.van-tabs {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 48rpx;
+	background-color: #fff;
+	z-index: 100;
+	border-bottom: 1rpx solid #ebedf0;
+  }
+  
+  /* Tab项样式 */
+  .van-tab {
+	font-size: 16rpx;
+	color: #666;
+	margin-right: 20rpx;
+	white-space: nowrap;
+  }
+  
+  /* 选中的Tab项样式 */
+  .van-tab--active {
+	font-weight: bold;
+	color: #dc143c;
+	border-bottom: 2rpx solid #dc143c;
+  }
+  
+  
+  .page-content {
+	padding: 24rpx;
+  }
+  
